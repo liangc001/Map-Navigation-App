@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "map-navigation-app"
+version = "1.0.0"
+description = "A PyQt5-based map navigation application"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "liangc001"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "PyQt5>=5.15.0",
+    "PyQt5-Qt5>=5.15.0",
+    "PyQt5-sip>=12.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/liangc001/Map-Navigation-App"
+Issues = "https://github.com/liangc001/Map-Navigation-App/issues"
+
+[project.scripts]
+map-nav = "map:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"*" = ["*.png", "*.jpg", "*.ico", "*.db"]

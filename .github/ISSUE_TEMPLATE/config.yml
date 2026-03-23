@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 问答社区
+    url: https://github.com/liangc001/Map-Navigation-App/discussions
+    about: 请使用 Discussions 进行一般性问题讨论
+  - name: 文档
+    url: https://github.com/liangc001/Map-Navigation-App/tree/main/docs
+    about: 查看项目文档

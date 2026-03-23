@@ -1,0 +1,13 @@
+# 代码所有者和审查者
+
+# 全局代码所有者
+* @liangc001
+
+# 文档
+/docs/ @liangc001
+
+# 测试
+/tests/ @liangc001
+
+# CI/CD 配置
+/.github/ @liangc001
